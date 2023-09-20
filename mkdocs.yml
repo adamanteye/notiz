@@ -5,13 +5,14 @@ repo_url: https://github.com/adamanteye/notiz
 
 nav:
   - 简介: index.md
+  - 计算机网络:
+    - Introduction: computer-networks/intro.md
   - Optics:
     - Fabry-Perot Interferometer: optics/fabry-perot-interferometer.md
     - Coherent Theory: optics/coherent-theory.md
     - Diffraction: optics/diffraction.md
   - 基础物理实验:
     - 绪论: physics-lab/intro.md
-    - R 语言 ggplot2 绘图: physics-lab/r-ggplot2.md
     - matlab 数据处理: physics-lab/matlab.md
     - 完整实验报告 latex 模板: physics-lab/report-template.md
   - 德语:
@@ -24,14 +25,10 @@ nav:
     - 动词: deutsch/verben.md
     - 被动态: deutsch/passiv.md
     - 语篇阅读翻译: deutsch/lese-und-übersätzübung.md
-
   - 写作与沟通:
     - 高效沟通: writing/communication.md
-    - 文件综述: writing/literature-review.md
+    - 文献综述: writing/literature-review.md
     - 利用图书馆: writing/libarian.md
-    - latex 使用: writing/latex.md
-  - JAVA:
-    - 基础语法: java/basics.md
   - 计算机图形学:
     - OpenGL 入门: graphics/opengl-tutorial.md
   - 人文社科:
@@ -43,19 +40,21 @@ theme:
   language: zh
   name: material
   font:
-    text: 'Fira Sans'
+    text: 'Noto Serif'
     code: 'Fira Mono'
   features:
     - navigation.tabs
     - navigation.footer
     - content.code.copy
 
-  palette: 
+  palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: white
+      accent: red
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: 切换到夜间模式
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
